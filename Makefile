@@ -1,4 +1,8 @@
-default: marxan-unix convert_mtx-unix
+default: unix
+
+unix: marxan-unix convert_mtx-unix
+
+windows: marxan-windows convert_mtx-windows
 
 marxan-unix:
 	gcc -o marxan MarOpt_v244.c -lm -Wno-format
