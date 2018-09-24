@@ -17,4 +17,4 @@ convert_mtx-windows:
 	x86_64-w64-mingw32-gcc -o convert_mtx.exe convert_mtx_v14.c -lm
 
 clean:
-	rm -f marxan marxan.exe
+	rm -f marxan marxan.exe convert_mtx convert_mtx.exe
