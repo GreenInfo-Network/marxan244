@@ -1,0 +1,5 @@
+# ignore the compiled binaries
+/convert_mtx
+/convert_mtx.exe
+/marxan
+/marxan.exe
